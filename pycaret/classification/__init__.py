@@ -10,6 +10,7 @@ from pycaret.classification.functional import (
     create_api,
     create_app,
     create_docker,
+    num_classes,
     create_model,
     dashboard,
     deploy_model,
@@ -84,4 +85,5 @@ __all__ = [
     "get_allowed_engines",
     "get_engine",
     "check_drift",
+    "num_classes",
 ]
